@@ -1,0 +1,1 @@
+Randomly selects a candidate item and discards it to make space when necessary.
