@@ -63,6 +63,7 @@ As our system will handle 250.5 TBs of ingress everyday, we will require a minim
 
 
 ## Data Model
+
 ![[WhatsApp Data Model.png]]
 
 #### What kind of database should we use?
@@ -212,6 +213,7 @@ API Gateway can also offer other features such as authentication, authorization,
 
 We can use services like [Amazon API Gateway](https://aws.amazon.com/api-gateway) or [Azure API Gateway](https://azure.microsoft.com/en-in/services/api-management) for this use case.
 
+
 ## Identify and Resolve Bottlenecks
 
 ##### Bottlenecks:
@@ -233,6 +235,7 @@ We can use services like [Amazon API Gateway](https://aws.amazon.com/api-gateway
 - Exactly once delivery and message ordering is challenging in a distributed system, we can use a dedicated **[[Message Broker]]** such as [Apache Kafka](https://kafka.apache.org) or [NATS](https://nats.io) to make our notification system more robust.
 - We can add media processing and compression capabilities to the media service to compress large files similar to WhatsApp which will save a lot of storage space and reduce cost.
 - We can create a group service separate from the chat service to further decouple our services.
+
 
 ## Final Diagram
 The design is done using AWS Services icons.

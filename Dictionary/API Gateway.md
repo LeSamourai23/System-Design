@@ -13,7 +13,7 @@ The granularity of APIs provided by microservices is often different than what a
 - [[Cache]]
 - Security
 - Retry and [[Circuit breaking]]
-- [[Load balancing]]
+- [[Load Balancers]]
 - Logging, Tracing
 - API composition
 - [[Rate limiting]] and throttling
