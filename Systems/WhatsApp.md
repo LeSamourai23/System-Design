@@ -1,4 +1,3 @@
-
 ## Requirements
 Our System should meet the following requirements:
 
@@ -20,7 +19,7 @@ Our System should meet the following requirements:
 ## Estimations and Constraints
 
 #### Traffic
-We will take our daily active users (DAU) as 100 million.
+This is a **Write-Heavy System**. We will take our daily active users (DAU) as 100 million.
 Let's assume a user sends on an average 10 messages to 5 different users a day
 
 	100 million x 50 = 5 billion total messages per day
