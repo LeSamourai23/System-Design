@@ -153,7 +153,7 @@ Another way to implement this is to track the latest action of the user, once th
 ### Notifications
 Once a message is sent in a chat or a group, we will first check if the recipient is active or not, we can get this information by taking the user's active connection and last seen into consideration.
 
-If the recipient is not active, the chat service will add an event to a **[[Message Queues]]** with additional metadata such as the client's device platform which will be used to route the notification to the correct platform later on.
+If the recipient is not active, the chat service will add an event to a **[[Message Queue]]** with additional metadata such as the client's device platform which will be used to route the notification to the correct platform later on.
 
 The notification service will then consume the event from the message queue and forward the request to [Firebase Cloud Messaging (FCM)](https://firebase.google.com/docs/cloud-messaging) or [Apple Push Notification Service (APNS)](https://developer.apple.com/documentation/usernotifications) based on the client's device platform (Android, iOS and web). We can also add support for email and SMS.
 

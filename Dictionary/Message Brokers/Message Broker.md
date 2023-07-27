@@ -6,7 +6,7 @@ Message brokers can validate, store, route, and deliver messages to the appropri
 
 ## Models
 
-- **[[Message Queues]]**: This is the distribution pattern utilized in message queues with a one-to-one relationship between the message's sender and receiver.
+- **[[Message Queue]]**: This is the distribution pattern utilized in message queues with a one-to-one relationship between the message's sender and receiver.
 - **[[Pub-Sub Messaging]]**: In this message distribution pattern, often referred to as _"pub/sub"_, the producer of each message publishes it to a topic, and multiple message consumers subscribe to topics from which they want to receive messages.
 
 ## Message brokers vs Event streaming
