@@ -17,15 +17,11 @@ This is made possible by providing a standardized way for the server to send con
 
 ### Advantages
 
-Below are some advantages of WebSockets:
-
 - Full-duplex asynchronous messaging.
 - Better origin-based security model.
 - Lightweight for both client and server.
 
 ### Disadvantages
-
-Below are some disadvantages of WebSockets:
 
 - Terminated connections aren't automatically recovered.
 - Older browsers don't support WebSockets (becoming less relevant).

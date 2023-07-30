@@ -115,7 +115,7 @@ This service will handle the video uploads and processing.
 ##### Analytics Service
 This service will handle the metrics and analytics.
 
-##### Inter-Service Communication and Service Discovery
+###### Inter-Service Communication and Service Discovery
 Since our architecture is microservices-based, services will be communicating with each other as well. Generally, **REST** or HTTP performs well but we can further improve the performance using **[[gRPC]]** which is more lightweight and efficient.
 
 **[[Service discovery]]** is another thing we will have to take into account. We can also use a service mesh that enables managed, observable, and secure communication between individual services.

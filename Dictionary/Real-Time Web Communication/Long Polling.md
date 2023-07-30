@@ -2,7 +2,7 @@ HTTP Long polling is a technique used to push information to a client as soon as
 
 In Long polling, the server does not close the connection once it receives a request from the client. Instead, the server responds only if any new message is available or a timeout threshold is reached.
 
-![[Topic Images/long-polling.webp]]
+![[long-polling.webp]]
 
 Once the client receives a response, it immediately sends a new request to the server to have a new pending connection to send data to the client, and the operation is repeated. With this approach, the server emulates a real-time server push feature.
 
